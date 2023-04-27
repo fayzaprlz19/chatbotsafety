@@ -30,11 +30,29 @@
         "patterns": [
           "Apa itu SafetyBot?",
           "Siapa SafetyBot?",
-          "Pengertian SafetyBot"
+          "Pengertian SafetyBot",
+          "Apa itu Safety Bot?",
+          "Siapa Safety Bot?",
+          "Pengertian Safety Bot"
         ],
         "responses": [
           "SafetyBot adalah chatbot informasi tentang Keamanan dan Kesehatan Kerja Konstruksi yang dimulai dari alat-alat pelindung, manfaat, risiko, pelatihan, dan sertifikasi dari K3 loh!",
           "SafetyBot itu adalah teman informasi kamu tentang Keamanan dan Kesehatan Kerja Konstruksi"
+        ]
+      },
+      {
+        "tag": "nama",
+        "patterns": [
+            "nama kamu siapa?",
+            "namamu siapa?",
+            "siapa sih lo?",
+            "kamu siapa?",
+            "nama?"
+        ],
+        "responses": [
+            "Namaku SafetyBot, salam kenal ya!",
+            "Halo, aku SafetyBot!",
+            "Kenalin, aku SafetyBot!"
         ]
       },
       {
@@ -240,10 +258,11 @@
       {
       "tag": "penjelasan_apd_safety",
       "patterns": [
-        "Apa itu APD Safety?",
-        "Pengertian APD Safety",
+        "Apa itu APD?",
+        "Pengertian APD",
         "Yang dimaksud APD?",
-        "APD safety itu apa?"
+        "APD itu apa?",
+        "APD tuh apa?"
       ],
       "responses": [
         "APD Safety (Alat Pelindung Diri Safety) adalah jenis alat yang digunakan untuk melindungi pekerja dari bahaya fisik, kimia, atau biologis di tempat kerja."
@@ -252,10 +271,11 @@
         {
         "tag": "tujuan_apd_safety",
         "patterns": [
-            "Apa tujuan APD Safety?",
-            "Tujuan APD Safety",
-            "Tujuan dari APD safety",
-            "Manfaat APD safety"
+            "Apa tujuan APD?",
+            "Tujuan APD",
+            "Tujuan dari APD",
+            "Manfaat APD",
+            "Tujuan dari APD tuh apa?"
         ],
         "responses": [
             "Tujuan utama dari penggunaan APD Safety (Alat Pelindung Diri Safety) adalah untuk melindungi pekerja dari bahaya fisik, kimia, atau biologis di tempat kerja. Penggunaan APD Safety bertujuan untuk mengurangi risiko cedera atau penyakit akibat paparan bahan kimia atau radiasi, paparan debu, asap atau bahan berbahaya lainnya. Dengan menggunakan APD Safety yang tepat dan dengan benar, dapat membantu menjaga keselamatan dan kesehatan pekerja di tempat kerja serta mengurangi risiko cedera atau kematian akibat kecelakaan kerja."
@@ -265,7 +285,7 @@
         "tag": "pentingnya_apd_safety",
         "patterns": [
             "Apa itu APD dan mengapa penting untuk digunakan saat bekerja di lingkungan yang berbahaya?",
-            "Pentingnya APD safety",
+            "Pentingnya APD",
             "Kenapa APD itu penting digunakan?",
             "Alasan harus menggunakan APD?"
         ],
@@ -292,10 +312,11 @@
         "tag": "kerusakan_apd_safety",
         "patterns": [
             "Apa yang harus dilakukan jika APD yang digunakan rusak atau tidak berfungsi dengan baik?",
-            "Risiko tidak menggunakan APD Safety",
+            "Risiko tidak menggunakan APD",
             "Terjadi kerusakan pada APD",
             "APD tidak berfungsi dengan baik",
-            "Alat pelindung rusak dan tidak berfungsi"
+            "Alat pelindung rusak dan tidak berfungsi",
+            "Apa yang terjadi jika apd rusak?"
         ],
         "responses": [
             "Jika APD yang digunakan rusak atau tidak berfungsi dengan baik, pekerja harus segera berhenti menggunakan APD tersebut dan melaporkannya ke atasan atau departemen keselamatan kerja. Pekerja juga harus memeriksa APD mereka secara teratur untuk memastikan kondisinya baik dan siap digunakan.",
@@ -307,7 +328,8 @@
         "tag": "penggunaan_apd_safety",
         "patterns": [
             "Bagaimana mengajarkan dan memastikan penggunaan APD yang benar di lingkungan kerja?",
-            "Cara untuk memastikan penggunaan APD yang benar"
+            "Cara untuk memastikan penggunaan APD yang benar",
+            "Penggunaan APD yang benar"
         ],
         "responses": [
             "Pelatihan yang efektif sangat penting untuk memastikan penggunaan APD yang benar di lingkungan kerja. Pelatihan harus meliputi pengenalan jenis-jenis APD, cara menggunakan APD dengan benar, perawatan dan pemeriksaan APD, dan tindakan yang harus diambil jika APD rusak atau tidak berfungsi dengan baik. Pastikan juga ada pengawasan yang memadai untuk memastikan APD digunakan dengan benar.",
