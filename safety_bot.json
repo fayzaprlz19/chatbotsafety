@@ -37,7 +37,7 @@
         ],
         "responses": [
           "SafetyBot adalah chatbot informasi tentang Keamanan dan Kesehatan Kerja Konstruksi yang dimulai dari alat-alat pelindung, manfaat, risiko, pelatihan, dan sertifikasi dari K3 loh!",
-          "SafetyBot itu adalah teman informasi kamu tentang Keamanan dan Kesehatan Kerja Konstruksi"
+          "SafetyBot itu adalah teman informasi kamu tentang Keamanan dan Kesehatan Kerja Konstruksi terkait APD, risiko, pelatihan, tujuan, penggunaan, dan sebagainya"
         ]
       },
       {
@@ -168,7 +168,7 @@
           "APD K3 Konstruksi"
         ],
         "responses": [
-          "Berdasarkan Permenkertrans No. PER/08/VII/2010 berikut alat dan perlengkapan yang wajib digunakan pekerja konstruksi di lapangan, yakni alat pelindung kepala, alat pelindung mata dan wajah, alat pelindung telinga, alat pelindung pernapasan, alat pelindung tangan, alat pelindung kaki, dan pakaian pelindung."
+          "Berdasarkan Permenkertrans No. PER/08/VII/2010, alat dan perlengkapan yang wajib digunakan pekerja konstruksi di lapangan, yakni alat pelindung kepala, alat pelindung mata dan wajah, alat pelindung telinga, alat pelindung pernapasan, alat pelindung tangan, alat pelindung kaki, dan pakaian pelindung."
         ]
       },
       {
@@ -300,7 +300,8 @@
         "patterns": [
             "Bagaimana memilih APD yang tepat untuk pekerjaan tertentu?",
             "Bagaimana cara milih APD yang benar dan tepat?",
-            "Memilih APD yang benar dan tepat sesuai dengan ketentuan"
+            "Memilih APD yang benar dan tepat sesuai dengan ketentuan",
+            "Memilih APD yang benar"
         ],
         "responses": [
             "Memilih APD yang tepat memerlukan penilaian risiko yang cermat. Hal ini termasuk mempertimbangkan jenis bahaya yang mungkin terjadi di tempat kerja, seperti bahan kimia atau suhu ekstrem. Setelah risiko dinilai, pilih APD yang cocok dengan risiko tersebut. Pastikan juga APD tersebut sesuai dengan standar keamanan yang berlaku dan sesuai dengan ukuran dan bentuk tubuh pekerja.",
