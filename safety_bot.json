@@ -1,0 +1,319 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan"
+        ],
+        "responses": [
+          "Hai! Safetybot di sini. Mau tau informasi tentang apa nih?",
+          "Halo! Saya Safetybot, salam kenal ya! Mau tau tentang seputar K3 ya?",
+          "Helo! Ini Safetybot. Lagi kepo tentang APD, pelatihan, atau apa nih?"
+        ]
+      },
+      {
+        "tag": "safetybot",
+        "patterns": [
+          "Apa itu SafetyBot?",
+          "Siapa SafetyBot?",
+          "Pengertian SafetyBot"
+        ],
+        "responses": [
+          "SafetyBot adalah chatbot informasi tentang Keamanan dan Kesehatan Kerja Konstruksi yang dimulai dari alat-alat pelindung, manfaat, risiko, pelatihan, dan sertifikasi dari K3 loh!",
+          "SafetyBot itu adalah teman informasi kamu tentang Keamanan dan Kesehatan Kerja Konstruksi"
+        ]
+      },
+      {
+        "tag": "pencipta_safetybot",
+        "patterns": [
+          "Siapa pembuatmu?",
+          "Safety, yang buat kamu siapa sih?",
+          "Siapa penciptamu, Safety?",
+          "Kamu dibuat siapa?"
+        ],
+        "responses": [
+          "SafetyBot diciptakan oleh mahasiswa dan mahasiswi dari program Studi Independen Orbit Future Academy Batch 4 yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+          "Pembuat SafetyBot dari kalangan mahasiswa dan mahasiswi S1 dari beberapa perguruan tinggi di Indonesia lho!",
+          "Penciptaku berasal dari kelompok mahasiswa yang memiliki passion di bidang AI, sehingga saya bisa aktif saat ini!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati :)",
+          "Sama-sama yaa"
+        ]
+      },
+      {
+        "tag": "penjelasan_keamanan_kesehatan_kerja",
+        "patterns": [
+          "Apa itu keamanan dan kesehatan kerja?",
+          "Pengertian dari keamanan dan kesehatan kerja?",
+          "Yang dimaksud keamanan dan kesehatan kerja?",
+          "keamanan dan kesehatan kerja",
+          "Apa si itu K3?",
+          "K3",
+          "Pengertian K3"
+        ],
+        "responses": [
+          "Keselamatan dan Kesehatan Kerja (K3) merupakan pemberian perlindungan kepada setiap orang yang berada di tempat kerja, yang berhubungan dengan pemindahan bahan baku, penggunaan peralatan kerja konstruksi, proses produksi dan lingkungan sekitar tempat kerja.",
+          "Keselamatan dan Kesehatan Kerja (K3) adalah upaya perlindungan yang ditujukan agar tenaga kerja dan orang lain di tempat kerja selalu dalam keadaan selamat dan sehat sehingga setiap sumber produksi bisa digunakan secara aman dan efisien."
+        ]
+      },
+      {
+        "tag": "tujuan_keamanan_kesehatan_kerja",
+        "patterns": [
+          "Apa tujuan keamanan dan kesehatan kerja?",
+          "Manfaat dari keamanan dan kesehatan kerja?",
+          "Tujuan dari K3",
+          "Manfaat dari K3",
+          "Tujuan dan manfaat K3"
+        ],
+        "responses": [
+          "K3 bertujuan untuk mencegah terjadinya kecelakaan dan sakit akibat kerja, memberikan perlindungan pada sumber-sumber produksi sehingga dapat meningkatkan efisiensi dan produktivitas."
+        ]
+      },
+      {
+        "tag": "risiko_keamanan_kesehatan_kerja",
+        "patterns": [
+          "Bagaimana tingkat risiko keamanan kesehatan kerja?",
+          "Risiko keamanan kesehatan kerja itu apa saja?",
+          "Risiko dari K3"
+        ],
+        "responses": [
+          "Risiko K3 adalah perpaduan antara peluang dan frekuensi terjadinya peristiwa K3 dengan akibat yang ditimbulkannya dalam kegiatan konstruksi. (1) Risiko Tinggi, mencakup pekerjaan konstruksi yg pelaksanaannya berisiko sangat membahayakan keselamatan umum, harta benda, jiwa manusia, dan lingkungan serta terganggunya kegiatan konstruksi; (2)Risiko Sedang, Mencakup pekerjaan konstruksi yg pelaksanaannya dpt berisiko membahayakan keselamatan umum, harta benda dan jiwa manusia serta terganggunya kegiatan konstruksi; (3) Risiko Kecil, mencakup pekerjaan konstruksi yg pelaksanaannya tidak membahayakan keselamatan umum dan harta benda serta terganggunya kegiatan konstruksi."
+        ]
+      },
+      {
+        "tag": "pelatihan_keamanan_kesehatan_kerja",
+        "patterns": [
+          "Pelatihan keamanan kesehatan kerja",
+          "Sertifikasi keamanan kesehatan kerja",
+          "Pelatihan dan sertifikasi K3",
+          "Harga pelatihan K3",
+          "Harga sertifikasi K3"
+
+        ],
+        "responses": [
+          "Pelatihan Ahli K3 Umum dengan sertifikasi dari Kementrian Ketenagakerjaan Rp 8.900.000,- Pelatihan Ahli K3 Kimia dengan sertifikasi dari Kementrian Ketenagakerjaan Rp 9.500.000,- Pelatihan Ahli K3 Lingkungan dengan sertifikasi dari Kementrian Ketenagakerjaan Rp 6.900.000,-"
+        ]
+      },
+      {
+        "tag": "apd_keamanan_kesehatan_kerja",
+        "patterns": [
+          "Alat dalam keamanan kesehatan kerja konstruksi",
+          "Perlengkapan dalam keamanan kesehatan kerja konstruksi",
+          "Perlengkapan serta alat dalam keamanan kesehatan kerja konstruksi",
+          "APD K3 Konstruksi"
+        ],
+        "responses": [
+          "Berdasarkan Permenkertrans No. PER/08/VII/2010 berikut alat dan perlengkapan yang wajib digunakan pekerja konstruksi di lapangan, yakni alat pelindung kepala, alat pelindung mata dan wajah, alat pelindung telinga, alat pelindung pernapasan, alat pelindung tangan, alat pelindung kaki, dan pakaian pelindung."
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_kepala",
+        "patterns": [
+          "Alat pelindung kepala",
+          "Apa saja perlengkapan yang digunakan untuk melindungi kepala?",
+          "Contoh alat pelindung kepala",
+          "APD kepala"
+        ],
+        "responses": [
+          "Alat pelindung kepala diantaranya safety helmet dan tudung rambut."
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_mata_wajah",
+        "patterns": [
+          "Alat pelindung mata dan wajah",
+          "Apa saja perlengkapan yang digunakan untuk melindungi mata dan wajah?",
+          "Contoh alat pelindung mata dan wajah",
+          "APD wajah mata muka"
+        ],
+        "responses": [
+            "Alat pelindung mata dan wajah diantaranya face shield, kacamata pengaman, goggles, masker, dsb."
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_telinga",
+        "patterns": [
+          "Alat pelindung telinga",
+          "Apa saja perlengkapan yang digunakan untuk melindungi telinga?",
+          "Contoh alat pelindung telinga",
+          "APD telinga"
+        ],
+        "responses": [
+            "Alat pelindung telinga diantaranya earplug (sumbat telinga) dan ear muffs (pelindung telinga)"
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_pernapasan",
+        "patterns": [
+          "Alat pelindung pernapasan",
+          "Apa saja perlengkapan yang digunakan untuk melindungi pernapasan?",
+          "Contoh alat pelindung pernapasan",
+          "APD di hidung"
+        ],
+        "responses": [
+            "Alat pelindung pernapasan diantaranya respirator, masker, kanister, dsb."
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_tangan",
+        "patterns": [
+          "Alat pelindung tangan",
+          "Apa saja perlengkapan yang digunakan untuk melindungi tangan?",
+          "Contoh alat pelindung tangan",
+          "APD tangan"
+        ],
+        "responses": [
+            "Alat pelindung tangan diantaranya sarung tangan berbahan kulit, karet, logam, kain berlapis, atau yang tahan paparan langsung dari bahan kimia."
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_kaki",
+        "patterns": [
+          "Alat pelindung kaki",
+          "Apa saja perlengkapan yang digunakan untuk melindungi kaki?",
+          "Contoh alat pelindung kaki",
+          "APD kaki"
+        ],
+        "responses": [
+            "Alat pelindung kaki diantaranya sepatu keselamatan biasanya bot karet atau bot khusus pengecoran"
+        ]
+      },
+      {
+        "tag": "penjelasan_apd_pakaian",
+        "patterns": [
+          "Pakaian pelindung",
+          "Apa saja perlengkapan yang digunakan untuk melindungi badan?",
+          "Contoh pakaian pelindung",
+          "APD badan sebagai pakaian"
+        ],
+        "responses": [
+            "Pakaian pelindung diantaranya jaket, hazmat suit, vest, harness, dsb."
+        ]
+      },
+      {
+      "tag": "penjelasan_apd_safety",
+      "patterns": [
+        "Apa itu APD Safety?",
+        "Pengertian APD Safety",
+        "Yang dimaksud APD?",
+        "APD safety itu apa?"
+      ],
+      "responses": [
+        "APD Safety (Alat Pelindung Diri Safety) adalah jenis alat yang digunakan untuk melindungi pekerja dari bahaya fisik, kimia, atau biologis di tempat kerja."
+      ]
+        },
+        {
+        "tag": "tujuan_apd_safety",
+        "patterns": [
+            "Apa tujuan APD Safety?",
+            "Tujuan APD Safety",
+            "Tujuan dari APD safety",
+            "Manfaat APD safety"
+        ],
+        "responses": [
+            "Tujuan utama dari penggunaan APD Safety (Alat Pelindung Diri Safety) adalah untuk melindungi pekerja dari bahaya fisik, kimia, atau biologis di tempat kerja. Penggunaan APD Safety bertujuan untuk mengurangi risiko cedera atau penyakit akibat paparan bahan kimia atau radiasi, paparan debu, asap atau bahan berbahaya lainnya. Dengan menggunakan APD Safety yang tepat dan dengan benar, dapat membantu menjaga keselamatan dan kesehatan pekerja di tempat kerja serta mengurangi risiko cedera atau kematian akibat kecelakaan kerja."
+        ]
+        },
+        {
+        "tag": "pentingnya_apd_safety",
+        "patterns": [
+            "Apa itu APD dan mengapa penting untuk digunakan saat bekerja di lingkungan yang berbahaya?",
+            "Pentingnya APD safety",
+            "Kenapa APD itu penting digunakan?",
+            "Alasan harus menggunakan APD?"
+        ],
+        "responses": [
+            "APD singkatan dari Alat Pelindung Diri. Alat ini sangat penting untuk melindungi karyawan dari cedera atau penyakit akibat paparan bahan kimia berbahaya, radiasi, atau suhu ekstrem. Penggunaan APD yang tepat dapat membantu mencegah kecelakaan dan memastikan keselamatan karyawan di tempat kerja.",
+            "APD adalah peralatan yang digunakan oleh pekerja untuk melindungi diri dari bahaya fisik, kimia, atau biologis di lingkungan kerja. Pentingnya APD terletak pada fungsinya sebagai penghalang antara tubuh pekerja dengan bahaya yang mungkin dihadapi. Tanpa APD yang tepat, pekerja dapat terkena cedera serius atau bahkan terkena penyakit yang dapat memengaruhi kesehatan mereka dalam jangka panjang.",
+            "APD adalah alat yang harus digunakan oleh pekerja dalam lingkungan kerja yang berbahaya. Alat ini terdiri dari berbagai jenis, seperti helm, kacamata pelindung, masker, dan sepatu keselamatan. APD sangat penting untuk melindungi karyawan dari bahaya yang mungkin terjadi di lingkungan kerja. APD yang tepat dan penggunaan yang benar dapat membantu mencegah kecelakaan dan memastikan keselamatan karyawan."
+        ]
+        },
+        {
+        "tag": "memilih_apd_safety",
+        "patterns": [
+            "Bagaimana memilih APD yang tepat untuk pekerjaan tertentu?",
+            "Bagaimana cara milih APD yang benar dan tepat?",
+            "Memilih APD yang benar dan tepat sesuai dengan ketentuan"
+        ],
+        "responses": [
+            "Memilih APD yang tepat memerlukan penilaian risiko yang cermat. Hal ini termasuk mempertimbangkan jenis bahaya yang mungkin terjadi di tempat kerja, seperti bahan kimia atau suhu ekstrem. Setelah risiko dinilai, pilih APD yang cocok dengan risiko tersebut. Pastikan juga APD tersebut sesuai dengan standar keamanan yang berlaku dan sesuai dengan ukuran dan bentuk tubuh pekerja.",
+            "Ada banyak jenis APD yang tersedia, jadi penting untuk memilih APD yang sesuai dengan jenis pekerjaan yang dilakukan. Misalnya, pekerja yang melakukan pekerjaan las memerlukan kacamata pelindung dengan lensa khusus untuk melindungi mata mereka dari sinar UV. Sebaliknya, pekerja di lingkungan yang berdebu mungkin memerlukan masker pernapasan dengan filter partikel. Pastikan APD yang dipilih sesuai dengan kebutuhan pekerja dan standar keamanan yang berlaku.",
+            "Memilih APD yang tepat melibatkan pemahaman tentang bahaya yang terkait dengan jenis pekerjaan yang dilakukan. Pastikan juga APD yang dipilih sesuai dengan spesifikasi teknis dan standar keamanan yang berlaku. Pekerja harus dilatih dan diuji sebelum menggunakannya secara reguler untuk memastikan APD tersebut sesuai dengan bentuk tubuh"
+        ]
+        },
+        {
+        "tag": "kerusakan_apd_safety",
+        "patterns": [
+            "Apa yang harus dilakukan jika APD yang digunakan rusak atau tidak berfungsi dengan baik?",
+            "Risiko tidak menggunakan APD Safety",
+            "Terjadi kerusakan pada APD",
+            "APD tidak berfungsi dengan baik",
+            "Alat pelindung rusak dan tidak berfungsi"
+        ],
+        "responses": [
+            "Jika APD yang digunakan rusak atau tidak berfungsi dengan baik, pekerja harus segera berhenti menggunakan APD tersebut dan melaporkannya ke atasan atau departemen keselamatan kerja. Pekerja juga harus memeriksa APD mereka secara teratur untuk memastikan kondisinya baik dan siap digunakan.",
+            "Jika APD yang digunakan rusak atau tidak berfungsi dengan baik, pekerja harus segera menghentikan penggunaannya dan melaporkannya ke atasan atau departemen keselamatan kerja. Pekerja juga harus dilatih secara teratur dalam penggunaan dan perawatan APD untuk memastikan APD mereka dalam kondisi yang baik.",
+            "Jika APD yang digunakan rusak atau tidak berfungsi dengan baik, pekerja harus segera berhenti menggunakan APD tersebut dan melaporkannya ke atasan atau departemen keselamatan kerja. Pekerja juga harus dilatih tentang penggunaan yang benar dan perawatan APD secara teratur untuk memastikan kondisi APD selalu baik."
+        ]
+        },
+        {
+        "tag": "penggunaan_apd_safety",
+        "patterns": [
+            "Bagaimana mengajarkan dan memastikan penggunaan APD yang benar di lingkungan kerja?",
+            "Cara untuk memastikan penggunaan APD yang benar"
+        ],
+        "responses": [
+            "Pelatihan yang efektif sangat penting untuk memastikan penggunaan APD yang benar di lingkungan kerja. Pelatihan harus meliputi pengenalan jenis-jenis APD, cara menggunakan APD dengan benar, perawatan dan pemeriksaan APD, dan tindakan yang harus diambil jika APD rusak atau tidak berfungsi dengan baik. Pastikan juga ada pengawasan yang memadai untuk memastikan APD digunakan dengan benar.",
+            "Ada beberapa cara untuk memastikan penggunaan APD yang benar di lingkungan kerja. Salah satunya adalah dengan menyediakan panduan penggunaan APD yang jelas dan mudah dipahami. Pelatihan yang teratur dan pengawasan yang memadai juga dapat membantu memastikan penggunaan APD yang benar. Pastikan juga pekerja mengetahui pentingnya penggunaan APD dan bahaya yang mungkin terjadi jika APD tidak digunakan dengan benar.",
+            "Untuk memastikan penggunaan APD yang benar di lingkungan kerja, penting untuk memiliki kebijakan dan prosedur yang jelas terkait penggunaan APD. Pelatihan dan pengawasan juga harus dilakukan secara teratur. Pastikan pekerja memahami pentingnya penggunaan APD dan bahaya yang mungkin terjadi jika APD tidak digunakan dengan benar. Komunikasi yang terbuka dan transparan antara manajemen dan karyawan juga dapat membantu memastikan penggunaan APD yang benar di lingkungan kerja."
+        ]
+        }
+    ]
+  }
